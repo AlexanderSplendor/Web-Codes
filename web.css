@@ -1,0 +1,121 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: coral;
+    color: aliceblue;
+}
+
+#navbar {
+    background-color: darkgray;
+    color: antiquewhite;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline
+}
+
+#navbar a:hover {
+    color: whitesmoke;
+    opacity: 50%;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image: url(img/cup-cofee-top-heart-117247683.jpg);
+    position: center center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: rgb(8, 8, 8);
+    font-size: 35px;
+    line-height: 1.5em;
+    padding-top: 30px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main h1 {
+    text-align: left;
+}
+
+#sidebar {
+    float: right;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(147, 150, 144);
+    color: rgb(253, 252, 252);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar p {
+    color: black;
+}
+
+.main h1 {
+    position: absolute;
+    text-align: left;
+}
+
+#main-footer {
+    background-color: darkgray;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:650px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+
+#main-footer p {
+    text-align: end;
+    color: black;
+}
+
+#contact p {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}

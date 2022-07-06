@@ -1,0 +1,1 @@
+<p> <strong>Note:</strong>External file is stored in "myscript.js</p>
